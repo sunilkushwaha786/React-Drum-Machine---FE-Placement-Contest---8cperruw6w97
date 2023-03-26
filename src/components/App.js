@@ -75,16 +75,16 @@ function App() {
 
   return (
     <div id='drum-machine'>
-      
       <Pads power = {on}/>
       <br />
       <br />
       <br />
-      <ControlScreen  />
-      volume= {volume}
-      volumeHandler = {volumeHandler}
-      on = {on}
-      onHandler ={onHandler}
+      <ControlScreen 
+       volume= {volume}
+       volumeHandler = {volumeHandler}
+       on = {on}
+       onHandler ={onHandler}
+      />
     </div>
   );
 }
